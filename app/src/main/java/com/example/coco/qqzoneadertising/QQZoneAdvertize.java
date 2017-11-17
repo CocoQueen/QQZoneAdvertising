@@ -22,6 +22,7 @@ import android.view.ViewGroup;
  */
 
 public class QQZoneAdvertize extends View {
+
     private Paint paint;//初始化画笔
     private int screenHeight;//屏幕高度
     private Canvas topCanvas;//初始化顶层画布
