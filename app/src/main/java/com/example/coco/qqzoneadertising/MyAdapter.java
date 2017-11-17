@@ -19,9 +19,9 @@ class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         this.parent = parent;
         View view = null;
         if (viewType == ITEM) {
-            view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item, null, false);
+            view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item, parent, false);
         } else if (viewType == ADVERTISING) {
-            view = LayoutInflater.from(parent.getContext()).inflate(R.layout.advertising, null, false);
+            view = LayoutInflater.from(parent.getContext()).inflate(R.layout.advertize, parent, false);
 
         }
         return new ViewHolder(view);

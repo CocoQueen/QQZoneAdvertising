@@ -77,6 +77,10 @@ public class QQZoneAdvertize extends View {
         rectF = new RectF(0, 0, width, height);
         bottom = ((BitmapDrawable) getResources().getDrawable(images[0])).getBitmap();
         top = ((BitmapDrawable) getResources().getDrawable(images[1])).getBitmap();
+
+//        bottom = BitmapFactory.decodeResource(getResources(),images[0]);
+//        top = BitmapFactory.decodeResource(getResources(),images[1]);
+
         topBg = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
         topCanVas = new Canvas(topBg);
     }
