@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //recyclerview设置适配器绑定数据
         mRv = findViewById(R.id.mRv);
         mRv.setLayoutManager(new LinearLayoutManager(this));
         mRv.setAdapter(new MyAdapter());
